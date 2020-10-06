@@ -124,3 +124,9 @@ STATIC_URL = '/static/'
 
 #Cambiar el default de user manager al creado en models.py IMPORTANTE
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
+#Despues de esto es hacer en consola
+#1 python3 manage.py makemigrations "nombre_api"
+#2 python3 manage.py migrate
+#3 Resultado sincroniza DB
+#4 python manage.py createsuperuser --> crear super usuario
+#5 Enable Django admin
